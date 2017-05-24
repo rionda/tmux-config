@@ -1,5 +1,5 @@
 TARGETS = $(HOME)/.tmux.conf
-SHELL = /bin/bash
+SHELL = /bin/sh
 CWD = $(shell pwd)
 
 define check_file
