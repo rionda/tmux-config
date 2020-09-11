@@ -9,5 +9,5 @@ echo "## Committing update " &&  \
 git commit --no-gpg-sign plugins -m "Sync submodules." && \
 echo "## Pushing " &&  \
 git push && \
-echo "## Updating plugins using TPM"
+echo "## Updating plugins using TPM" && \
 ~/.tmux/plugins/tpm/bin/update_plugins all
