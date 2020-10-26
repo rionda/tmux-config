@@ -8,5 +8,5 @@ To install:
 git submodule update --init --merge && \
 ln -s tmux.conf ~/.tmux.conf && \
 mkdir -p ~/.tmux/ && \
-ln -s plugins ../.tmux/plugins
+ln -s plugins ~/.tmux/plugins
 ```
